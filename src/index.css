@@ -1,0 +1,10 @@
+
+    body {
+        width: 100%;
+        background: #fff;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100vh;
+        flex-direction: column;
+        overflow: hidden;
+      }

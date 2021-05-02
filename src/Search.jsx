@@ -7,9 +7,8 @@ import {Link} from 'react-router-dom'
 function Search(){
 
     const [img,setImg] = useState('')
-    const [clientId,setClientID] = useState('7Ba_eQo9MNRsx10o7i0BgDVe8bIZIuR85PShZqsfdAw')
+    const clientId = '7Ba_eQo9MNRsx10o7i0BgDVe8bIZIuR85PShZqsfdAw'
     const [result,setResult] = useState([])
-
 
     const searchEvent = (event) => {
         setImg(event.target.value) 

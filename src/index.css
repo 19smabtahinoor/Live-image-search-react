@@ -1,10 +1,22 @@
 
-    body {
+body {
         width: 100%;
         background: #fff;
         display: flex;
         flex-wrap: wrap;
         height: 100vh;
         flex-direction: column;
-        overflow: hidden;
-      }
+        overflow-x: hidden;
+}
+
+body::-webkit-scrollbar{
+  width:5px;
+}
+body::-webkit-scrollbar-thumb{
+  background:#42b942;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}

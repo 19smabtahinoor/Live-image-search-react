@@ -21,7 +21,6 @@ function Search(){
         axios.get(url).then(
             response => setResult(response.data.results)
         )
-        setClientID()
     }
     return(
         <>

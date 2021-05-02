@@ -21,6 +21,7 @@ function Search(){
         axios.get(url).then(
             response => setResult(response.data.results)
         )
+        setClientID()
     }
     return(
         <>
@@ -60,10 +61,7 @@ function Search(){
         : <div className="image_container">
         {result.map( (photos,index) => (
                     <div className="search_result_area" key={index}>
-                        <a download>
                         <img  src={photos.urls.regular} alt="randomimage"/>
-                        </a>
-
                     </div> 
         ))}
         </div>
